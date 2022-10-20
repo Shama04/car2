@@ -1,0 +1,40 @@
+.work{
+  background: #353535;
+  padding: 90px 0;
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+  }
+  &__box{
+    width: 160px;
+    padding: 35px 35px;
+    background: #353535;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.46);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  &__slide{
+    position: relative;
+    }
+  &__allow-left{
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    transform: translate(-45%);
+    cursor: pointer;
+  }
+  &__allow-right{
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translate(-45%);
+    cursor: pointer;
+  }
+}
+
+.swiper{
+  padding: 20px 40px;
+}
